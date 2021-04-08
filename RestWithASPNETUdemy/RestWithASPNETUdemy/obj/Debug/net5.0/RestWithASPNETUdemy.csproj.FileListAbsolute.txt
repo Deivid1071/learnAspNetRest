@@ -21,3 +21,14 @@ F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\ne
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\ref\RestWithASPNETUdemy.dll
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.pdb
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.genruntimeconfig.cache
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Npgsql.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.csproj.CopyComplete
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cs

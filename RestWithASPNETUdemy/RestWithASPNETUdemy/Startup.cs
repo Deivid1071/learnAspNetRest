@@ -2,14 +2,20 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using RestWithASPNETUdemy.Model.Context;
+using RestWithASPNETUdemy.Business.Implementations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using RestWithASPNETUdemy.Business;
+using RestWithASPNETUdemy.Repository;
+using RestWithASPNETUdemy.Repository.Implementations;
 
 namespace RestWithASPNETUdemy
 {
@@ -27,6 +33,15 @@ namespace RestWithASPNETUdemy
         {
 
             services.AddControllers();
+            
+            services.AddEntityFrameworkNpgsql().AddDbContext<PostgresContext>(options => options.UseNpgsql(Configuration.GetConnectionString("PostgresConnectionString")));
+
+            //Versioning API
+            services.AddApiVersioning();
+
+            //Dependency Injection 
+            services.AddScoped<IPersonBusiness, PersonalBusinessImplementation>(); 
+            services.AddScoped<IPersonRepository, PersonalRepositoryImplementation>(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
