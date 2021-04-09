@@ -32,3 +32,16 @@ F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\ne
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cs
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Evolve.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.AspNetCore.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Sinks.File.dll
