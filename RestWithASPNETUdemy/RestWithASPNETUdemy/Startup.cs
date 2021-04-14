@@ -50,7 +50,9 @@ namespace RestWithASPNETUdemy
 
             //Dependency Injection 
             services.AddScoped<IPersonBusiness, PersonalBusinessImplementation>(); 
-            services.AddScoped<IPersonRepository, PersonalRepositoryImplementation>(); 
+            services.AddScoped<IPersonRepository, PersonalRepositoryImplementation>();
+            services.AddScoped<IBookBusiness, BookBusinessImplementation>();
+            services.AddScoped<IBookRepository, BookRespositoryImplementation>();
         }
 
         private void MigrateDatabase(string connection)
