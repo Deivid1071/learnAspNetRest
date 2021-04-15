@@ -15,8 +15,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using RestWithASPNETUdemy.Business;
 using RestWithASPNETUdemy.Repository;
-using RestWithASPNETUdemy.Repository.Implementations;
 using Serilog;
+using RestWithASPNETUdemy.Repository.Generic;
 
 namespace RestWithASPNETUdemy
 {
@@ -50,9 +50,9 @@ namespace RestWithASPNETUdemy
 
             //Dependency Injection 
             services.AddScoped<IPersonBusiness, PersonalBusinessImplementation>(); 
-            services.AddScoped<IPersonRepository, PersonalRepositoryImplementation>();
-            services.AddScoped<IBookBusiness, BookBusinessImplementation>();
-            services.AddScoped<IBookRepository, BookRespositoryImplementation>();
+            services.AddScoped<IBookBusiness, BookBusinessImplementation>();                      
+
+            services.AddScoped(typeof(IRepository<>), typeof(GenericRepositoryImplementation<>));
         }
 
         private void MigrateDatabase(string connection)
