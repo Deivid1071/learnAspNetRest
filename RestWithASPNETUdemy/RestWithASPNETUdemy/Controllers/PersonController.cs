@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Logging;
 using RestWithASPNETUdemy.Model;
 using RestWithASPNETUdemy.Business;
+using RestWithASPNETUdemy.Data.VO;
+using System.Collections.Generic;
 
 namespace RestWithASPNETUdemy.Controllers
 {   
@@ -21,12 +23,20 @@ namespace RestWithASPNETUdemy.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType((200), Type = typeof(List<PersonVO>))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
         public IActionResult Get()
         {            
             return Ok(_personBusiness.FindAll());
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
         public IActionResult Get(long id)
         {
             var person = _personBusiness.FindById(id);
@@ -38,7 +48,10 @@ namespace RestWithASPNETUdemy.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Person person)        {
+        [ProducesResponseType((200), Type = typeof(PersonVO))]        
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        public IActionResult Post([FromBody] PersonVO person)        {
             
             if (person == null)
             {
@@ -48,7 +61,10 @@ namespace RestWithASPNETUdemy.Controllers
         }
 
         [HttpPut]
-        public IActionResult Put([FromBody] Person person)
+        [ProducesResponseType((200), Type = typeof(PersonVO))]        
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        public IActionResult Put([FromBody] PersonVO person)
         {
 
             if (person == null)
@@ -58,7 +74,10 @@ namespace RestWithASPNETUdemy.Controllers
             return Ok(_personBusiness.Update(person));
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{id}")]        
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
         public IActionResult Delete(long id)
         {
             _personBusiness.DeleteById(id);            

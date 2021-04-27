@@ -45,3 +45,7 @@ F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\ne
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Serilog.Sinks.File.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Microsoft.OpenApi.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Dev\C#\Aula1NetCoreUdemy\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
